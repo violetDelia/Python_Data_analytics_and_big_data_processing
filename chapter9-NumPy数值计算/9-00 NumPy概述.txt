@@ -1,0 +1,29 @@
+9.1 数组属性
+    NumPy的数组对象名称为 ndarry，在ndarry内数据类型相同，并由一组正整数索引。
+    1.ndim
+        数组的轴数（维度）。
+    2.shape
+        表示数组的形状和大小。输出一个整数元组，代表每个维度中数组的长度。
+    3.size
+        代表元素的总个数。
+    4.dtype
+        描述数组中元素的类型。
+    5.itemsize
+        表示每个元素的大小（字节）。
+    6.data
+        表示数组中实际的元素，一般不使用。
+9.2 数据类型
+    bool
+    int8/i1
+    int16/i2
+    int32/i3
+    int64/i4
+    uint8/u1
+    uint16/u2
+    uint16/u3
+    uint64/u4
+    float(float64)/f8/d     双精度浮点数
+    float16/f2              半精度浮点数
+    float32/f4/f8           单精度浮点数
+    complex(complex128)
+    complex64               用单精度浮点数组成实部和虚部
